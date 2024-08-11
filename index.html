@@ -1,1 +1,229 @@
-hola mundo
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Streaming</title>
+</head>
+
+<body>
+	<header>
+		<div class="contenedor">
+			<h1 class="logotipo">Movie Film</h1>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Series</a>
+				<a href="#">Películas</a>
+				<a href="#">Agregados Recientemente</a>
+				<a href="#">Todo</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Blade Runner 2049</h3>
+				<p class="descripcion">
+					En el año 2049 el oficial K, un nuevo replicante de la policía de Los Ángeles, emprende la búsqueda del replicante Rick Deckard, desaparecido 30 años antes. K piensa que en Deckard reside la clave que podría permitir salvar a la sociedad del caos en el que está inmersa.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Ver</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Descargar</button>
+			</div>
+		</div>
+
+        <header>
+            <h1>Dulceria</h1>
+        </header>
+
+
+            <div class="container">
+                
+                <div class="combo">
+                    <img src="imagenes/combo 1.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 1</h2>
+                    <p>Este combo incluye, una palomita mediana, una palomita pequeña y una soda </p>
+                    <h3>$10.50</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+    
+                <div class="combo2">
+                    <img src="imagenes/combo 2.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 2</h2>
+                    <p>Este combo incluye, tres palomitas pequeñas </p>
+                    <h3>$5.15</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+               
+    
+                <div class="combo3">
+                    <br>
+                    <img src="imagenes/combo 2.1.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 3</h2>
+                    <p>Este combo incluye, una palomita mediana, mitad dulce, mitad salada y un batido de fresa </p>
+                    <h3>$10.50</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo4">
+                    <img src="imagenes/combo 3.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 4</h2>
+                    <p>Este combo incluye, una palomita grande, una palomita pequeña y un jugo </p>
+                    <h3>$15.20</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+    
+                <div class="combo5">
+                    <img src="imagenes/combo5.png" alt="Imagen de combo" width="200">
+                    <H2>Combo 5</H2>
+                    <p>Este combo incluye, una palomita pequeña, una soda y un chocolate </p>
+                    <h3>$9.40</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+                  
+                <div class="combo6">
+                    <img src="imagenes/combo6.png" alt="Imagen de combo" width="200">
+                    <h2>Combo 6</h2>
+                    <p>Este combo incluye, una palomita pqueña, unos dulces y una soda </p>
+                    <h3>$6.30</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo7">
+                    <img src="imagenes/combo7.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 7</h2>
+                    <p>Este combo incluye, una palomita grandes dulces y un batido de nerds </p>
+                    <h3>$16.60</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo8">
+                    <img src="imagenes/combo 8.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 8</h2>
+                    <p>Este combo incluye, una palomita grande y un batido de malvavisco </p>
+                    <h3>$18.70</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo9">
+                    <img src="imagenes/combo 9.1.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 9</h2>
+                    <p>Este combo incluye, una palomita mediana y una soda pequeña </p>
+                    <h3>$8.10</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo10">
+                    <img src="imagenes/combo10.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 10</h2>
+                    <p>Este combo incluye, una palomita mediana, una palomita pequeña y un batido de helado </p>
+                    <h3>$10.50</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo11">
+                    <img src="imagenes/combo11.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 11</h2>
+                    <p>Este combo incluye, una palomita mediana,gomitas y una soda grande </p>
+                    <h3>$17.80</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+                <br>
+    
+                <div class="combo12">
+                    <img src="imagenes/combo 12.jpg" alt="Imagen de combo" width="200">
+                    <h2>Combo 12</h2>
+                    <p>Este combo incluye, una palomita mediana con caramelo y un cafe con caramelo </p>
+                    <h3>$10.50</h3>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span class="number">1</span>
+                        <button class="plus">+</button>
+                        <br>
+                        <button type="button" onclick="agregarAlCarrito()">Agregar</button>
+                    </div>
+                </div>
+          </div>
+
+	</main>
+
+    <script src="script.js"></script>
+	<script src="" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
