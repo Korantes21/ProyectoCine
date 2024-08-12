@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Películas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<!-- cartelera-styles.css -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Logo Cine -->
+            <div class="navbar">
+                <a class="navbar-brand" href="#" alt="Logo-cine">
+                    <button class="circular-button" style="border-radius: 50%;  border: none; width: 30px; height: 30px; font-size: 24px; display: flex; align-items: flex-end;">
+                        &times;
+                    </button>
+                </a>        
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Más Detalles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Salas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cafetería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactenos</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-dark mx-2">Iniciar Sesión</button>
+                <button class="btn btn-dark">Registrarse</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Lema Section -->
+     <div class="container my-3">
+        <div class="hero-section d-flex justify-content-center align-items-center text-center" style="height: 452px;">
+            <div>
+                <h1 class="display-1 fw-bold">Cartelera</h1>
+                <p class="display-6">Subtitle</p>
+            </div>
+        </div>
+     </div>
+
+    <!-- Carousel -->
+     <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="cartelera-img/First slide.png" class="d-block w-100" alt="First slide">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="cartelera-img/Second slide.png" class="d-block w-100" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="cartelera-img/Third slide.png" class="d-block w-100" alt="Third slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </div>
+
+    <!-- Populares Section -->
+    <div class="container my-5">
+        <h3>Populares</h3>
+        <p class="text-muted">De esta semana</p>
+
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Catálogo de Películas Section -->
+    <div class="container my-5">
+        <h3>Catálogo de Películas</h3>
+        <p class="text-muted">Subtítulo</p>
+
+        <div class="row">
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <img src="cartelera-img/catalogo-movie.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">Title of the movie </h6>
+                        <a href="#" class="btn btn-outline-dark btn-sm">Mostrar más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mostrar más -->
+
+    <!-- Footer -->
+    <footer class="footer bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Programación</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Cartelera</a></li>
+                        <li><a href="#">Cafetería</a></li>
+                        <li><a href="#">Compra de entradas</a></li>
+                        <li><a href="#">Promociones y ofertas especiales</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Sobre nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Quienes somos</a></li>
+                        <li><a href="#">Contactenos</a></li>
+                        <li><a href="#">Términos y condicione</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
